@@ -1,0 +1,86 @@
+.knowledge-base-accordion {
+	margin-top: 64px;
+}
+
+.knowledge-base-accordion h2 {
+	color: white;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-transform: uppercase;
+}
+
+.knowledge-base-accordion-content {
+	padding: 1rem 1.5rem;
+	margin-bottom: 1rem;
+	border-radius: 0.25rem;
+	margin-top: 20px;
+}
+.knowledge-base-accordion-content h4 {
+	color: white;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 125%;
+	letter-spacing: 0%;
+	text-align: left;
+	cursor: pointer;
+}
+.knowledge-base-accordion-content p {
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: left;
+	margin-bottom: 0;
+	margin-top: 0.5rem;
+}
+
+.knowledge-base-accordion-content header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.knowledge-base-accordion-content header h4 {
+	margin-bottom: 0;
+}
+.knowledge-base-accordion-content-btn {
+	background: transparent;
+	border-color: transparent;
+	width: 2rem;
+	height: 2rem;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	cursor: pointer;
+	margin-left: 1rem;
+	align-self: center;
+	min-width: 2rem;
+}
+
+@media (max-width: 768px) {
+	.knowledge-base-accordion h2 {
+		font-size: 30px;
+	}
+
+	.knowledge-base-accordion-content h4 {
+		font-size: 18px;
+	}
+	.knowledge-base-accordion-content p {
+		color: white;
+		font-family: Roboto;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0%;
+		text-align: left;
+		margin-bottom: 0;
+		margin-top: 0.5rem;
+	}
+}

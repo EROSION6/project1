@@ -1,0 +1,43 @@
+.knowledge-base-search {
+	width: 100%;
+	display: flex;
+	gap: 5px;
+	margin-top: 36px;
+}
+
+.knowledge-base-search input {
+	width: 100%;
+	border-radius: 400px;
+
+	background: rgba(147, 142, 155, 0.2);
+	border: none;
+	padding: 14px 20px;
+	outline: none;
+
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.knowledge-base-search button {
+	border-radius: 100px;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}

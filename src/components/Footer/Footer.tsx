@@ -9,21 +9,21 @@ export const Footer = () => {
 				<a href='#' className='footer-contacts__link'>
 					<img
 						className='footer-contacts__img'
-						src='./img/mail.png'
+						src='/img/mail.png'
 						alt='mail'
 					/>
 				</a>
 				<a href='#' className='footer-contacts__link'>
 					<img
 						className='footer-contacts__img'
-						src='./img/youtube.png'
+						src='/img/youtube.png'
 						alt='youtube'
 					/>
 				</a>
 				<a href='#' className='footer-contacts__link'>
 					<img
 						className='footer-contacts__img'
-						src='./img/telegram.png'
+						src='/img/telegram.png'
 						alt='telegram'
 					/>
 				</a>

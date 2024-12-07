@@ -6,7 +6,7 @@ export const Header = () => {
 			<div id='top' className='header-logo'>
 				<a href='#top' className='header-logo__link'>
 					<img
-						src='./img/logo.png'
+						src='/img/logo.png'
 						className='header-logo__img'
 						alt='Логотип Transcripto.ai'
 					/>
@@ -24,9 +24,9 @@ export const Header = () => {
 						<a href='#tariffs' className='header-nav__link'>
 							Тарифы
 						</a>
-						<a href='#materials' className='header-nav__link'>
-							Обучающие материалы
-						</a>
+						<Link to='/blog' className='header-nav__link'>
+							Блог
+						</Link>
 						<a href='#contacts' className='header-nav__link'>
 							Контакты
 						</a>
@@ -59,9 +59,9 @@ export const Header = () => {
 				<a href='#tariffs' className='header-nav__link'>
 					Тарифы
 				</a>
-				<a href='#materials' className='header-nav__link'>
-					Обучающие материалы
-				</a>
+				<Link to='/blog' className='header-nav__link'>
+					Блог
+				</Link>
 				<a href='#contacts' className='header-nav__link'>
 					Контакты
 				</a>

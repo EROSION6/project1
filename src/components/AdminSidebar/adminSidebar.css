@@ -1,0 +1,55 @@
+.admin-sidebar {
+	width: 100%;
+	margin-top: 22px;
+}
+
+.admin-sidebar b {
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 100%;
+	text-align: left;
+	padding: 4px 16px;
+}
+
+.admin-sidebar-link {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	margin-top: 19px;
+	margin-bottom: 20px;
+}
+
+.admin-sidebar-link li {
+	list-style-type: none;
+}
+
+.admin-sidebar-link li a {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-decoration: none;
+
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	padding: 4px 16px;
+}
+
+.active-admin-link {
+	color: white !important;
+}
+
+@media (max-width: 1024px) {
+	.admin-sidebar {
+		width: 260px	;
+		position: fixed;
+		left: 0;
+		background-color: #1B1A1D;
+	}
+}

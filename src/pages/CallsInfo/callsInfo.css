@@ -1,0 +1,275 @@
+.calls-info {
+	width: 76%;
+	height: auto !important;
+	display: flex;
+}
+
+.calls-info-content {
+	width: 750px;
+}
+
+.calls-info-content h2 {
+	color: white;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-transform: uppercase;
+}
+
+.calls-info-content-tabs {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.calls-info-content-tabs-btns {
+	display: flex;
+	gap: 10px;
+}
+
+.calls-info-content-tabs-btns button {
+	border-radius: 100px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	padding: 8px 18px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 18px;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.active-calls-tabs {
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	backdrop-filter: blur(30px);
+}
+
+.calls-info-content-tabs-calendar {
+	color: white;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.calls-info-content-tabs-calendar label {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+}
+
+.calls-info-content-links {
+	display: flex;
+	gap: 8px;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.calls-info-content-links h3 {
+	color: white;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 125%;
+	letter-spacing: 0%;
+	text-align: left;
+	margin: 20px 0 10px 0;
+}
+
+.calls-info-content-links-item {
+	display: flex;
+	align-items: baseline;
+	width: 100%;
+}
+
+.calls-info-content-links-item p {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.calls-info-content-links-item span {
+	flex: 1;
+	border-bottom: 1px dashed rgb(147, 142, 155);
+	margin-right: 2px;
+}
+
+.calls-info-content-links-item b {
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: right;
+}
+
+.calls-info-content-category {
+	margin-top: 20px;
+}
+
+.calls-info-content-category h3 {
+	color: white;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 125%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.table-top {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.table-bottom {
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: left;
+
+	border: 1px solid transparent;
+}
+
+th {
+	background-color: transparent;
+}
+
+tbody tr:hover {
+	background-color: rgba(78, 78, 79, 0.279);
+}
+
+/* questions */
+.calls-info-content-questions {
+	margin-top: 20px;
+}
+
+.calls-info-content-questions h3 {
+	color: white;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 125%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.calls-info-content-questions ul {
+	margin-top: 20px;
+	display: flex;
+	gap: 8px;
+	flex-direction: column;
+}
+
+.calls-info-content-questions ul p {
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.calls-info-content-questions ul li {
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+/* Recommendations for improvement */
+
+.calls-info-content-recommendations {
+	margin-top: 20px;
+}
+
+.calls-info-content-recommendations-title {
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	backdrop-filter: blur(30px);
+	padding: 12px;
+	border-radius: 20px;
+}
+
+.calls-info-content-recommendations-title h2 {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 125%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.calls-info-content-recommendations-descr {
+	margin-top: 20px;
+}
+
+.calls-info-content-recommendations-descr span {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.calls-info-content-recommendations-descr p {
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: left;
+}

@@ -46,7 +46,6 @@ input {
 .header {
 	min-height: var(--min-header-height);
 	width: 100%;
-	
 
 	padding: 20px 0;
 
@@ -268,6 +267,7 @@ input {
 /* Первая секция: main-welcome*/
 .main-welcome-content-mobile {
 	display: none;
+	padding: ;
 }
 .main-welcome {
 	background-color: var(--black-background-color);
@@ -447,7 +447,7 @@ input {
 
 .main-functions {
 	position: relative;
-	padding: 120px min(200px, 8%) 60px;
+	padding: 105px min(200px, 8%) 60px;
 
 	display: flex;
 	align-items: start;

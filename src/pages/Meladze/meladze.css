@@ -1,0 +1,242 @@
+.meladze {
+	width: 76%;
+	display: flex;
+	padding: 20px;
+}
+
+.meladze-content {
+	width: 650px;
+}
+
+.meladze-content-header {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.meladze-content-header h2 {
+	color: white;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.meladze-content-header-time {
+	display: flex;
+	gap: 20px;
+}
+
+.meladze-content-header-time span {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.meladze-content-tabs {
+	display: flex;
+	gap: 10px;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.meladze-content-tabs button {
+	border-radius: 100px;
+	backdrop-filter: blur(30px);
+	/* background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	); */
+
+	color: rgb(27, 26, 29);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+
+	border: none;
+	padding: 10px 18px;
+}
+
+.meladze-content-info {
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.meladze-content-info button {
+	position: absolute;
+	left: 28%;
+	top: 37%;
+	border-radius: 100px;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+}
+
+.meladze-content-info img {
+	width: 100%;
+	height: 305px;
+	margin-bottom: 20px;
+}
+
+.meladze-content-info p {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 120%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+/* Modal */
+
+.generate-image-modal {
+	width: 700px !important;
+}
+
+.generate-image-modal h2 {
+	color: rgb(27, 26, 29);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.generate-image-modal-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.generate-image-modal-content button {
+	border-radius: 100px;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	margin-top: 20px;
+}
+
+.generate-image-modal-content-grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 15px;
+	margin-top: 20px;
+}
+
+.generate-image-modal-content-grid img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.generate-image-modal-search {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 40px;
+}
+
+.generate-image-modal-search b {
+	color: rgb(27, 26, 29);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.generate-image-modal-search textarea {
+	width: 100%;
+	height: 60px;
+	border-radius: 12px;
+	background: rgba(147, 142, 155, 0.2);
+	border: none;
+	padding: 10px;
+	resize: none;
+	outline: none;
+}
+
+.generate-image-modal-search-btn {
+	border-radius: 100px;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	margin-top: 20px;
+}
+
+.generate-image-modal-search span {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.active-tabs{
+	background: linear-gradient(
+    180deg,
+    rgb(105, 40, 242),
+    rgb(105, 41, 187) 100%
+  );
+  color: white !important;	
+}

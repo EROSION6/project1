@@ -7,7 +7,7 @@ export const App = () => {
 	return (
 		<>
 			<Header />
-			<main style={{padding: '0 15px'}}>
+			<main>
 				<Outlet />
 			</main>
 			<Footer />

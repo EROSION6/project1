@@ -1,0 +1,28 @@
+.admin {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	align-items: start;
+}
+
+.admin-content {
+	width: 1440px;
+	display: flex;
+	gap: 20px;
+	padding: 36px 10px;
+}
+
+.admin-left-content {
+	width: 314px;
+}
+
+@media (max-width: 1024px) {
+	.admin-content {
+		width: 100%;
+	}
+	.admin-left-content {
+		width: 0;
+	}
+}

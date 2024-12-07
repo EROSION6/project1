@@ -1,0 +1,62 @@
+.admin-option {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.admin-option-timer {
+	padding: 20px;
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	border-radius: 20px;
+}
+
+.admin-option-timer h4 {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 140%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.admin-option-timer p {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 140%;
+	text-align: left;
+	margin: 6px 0;
+}
+
+.admin-option-chatgpt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+
+	padding: 20px;
+	background: rgb(22, 161, 128);
+	border-radius: 20px;
+}
+
+.admin-option-chatgpt h4 {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 140%;
+	text-align: left;
+}
+
+
+@media (max-width: 1024px) {
+	.admin-option{
+		display: none;
+	}
+}

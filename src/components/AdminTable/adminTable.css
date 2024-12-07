@@ -1,0 +1,151 @@
+.admin-table {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.admin-table-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.admin-table-header-complited {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.admin-table-header-complited > span {
+	color: rgb(110, 106, 116);
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 140%;
+}
+
+.admin-table-header-complited > input[type='checkbox'] {
+	box-sizing: border-box;
+	border: 1px solid rgb(175, 165, 189);
+	border-radius: 4px;
+	width: 20px;
+	height: 20px;
+	border-radius: 12px;
+}
+
+.admin-table-header-btn {
+	display: flex;
+	gap: 25px;
+}
+
+.admin-table-header-btn span {
+	color: rgb(110, 106, 116);
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 140%;
+}
+
+.admin-table-header-btn span:nth-child(1) {
+	padding-right: 70px;
+}
+
+.admin-table-row {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.admin-table-row-complited {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.admin-table-row-complited > span {
+	color: rgb(110, 106, 116);
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 140%;
+}
+
+.admin-table-row-complited > input[type='checkbox'] {
+	box-sizing: border-box;
+	border: 1px solid rgb(175, 165, 189);
+	border-radius: 4px;
+	width: 20px;
+	height: 20px;
+	border-radius: 12px;
+}
+
+.admin-table-row-btn {
+	display: flex;
+	gap: 25px;
+	margin-top: 20px;
+}
+
+.admin-table-row-btn span {
+	color: rgb(110, 106, 116);
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 140%;
+}
+
+.admin-table-row-btn span:nth-child(1) {
+	padding-right: 50px;
+}
+.admin-table-row-btn span:nth-child(2) {
+	padding-right: 70px;
+}
+.admin-table-row-btn span:nth-child(3) {
+	padding-right: 10px;
+}
+
+.admin-table-row-btn button {
+	border: none;
+	background-color: transparent;
+}
+
+.admin-table-row-setting {
+	position: absolute;
+	right: -50px;
+	top: 35%;
+	border: none;
+	background-color: transparent;
+}
+
+.admin-table-row-setting-menu {
+	display: none;
+	position: absolute;
+	right: 0;
+	width: 234px;
+	padding: 4px;
+	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.admin-table-row-setting-menu ul {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.admin-table-row-setting-menu ul li {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 100%;
+	text-align: left;
+	list-style: none;
+	padding: 4px 26px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.admin-table-row-setting-menu ul li:hover {
+	background-color: rgba(229, 226, 238, 0.2);
+}

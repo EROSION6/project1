@@ -1,5 +1,11 @@
-import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
-import { useState } from 'react'
+import {
+	FacebookAuthProvider,
+	getAuth,
+	GoogleAuthProvider,
+	signInWithEmailAndPassword,
+	signInWithPopup,
+} from 'firebase/auth'
+import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { app } from '../../config/auth/auth'
 import './style.css'
@@ -25,6 +31,39 @@ export const Login = () => {
 				})
 		}
 	}
+
+	const handleGoogleLogin = async (e: React.MouseEvent<HTMLButtonElement>) => {
+		e.preventDefault()
+		const provider = new GoogleAuthProvider()
+		try {
+			const result = await signInWithPopup(getAuth(app), provider)
+			console.log('Successfully signed in with Google:', result.user)
+			return navigation('/')
+		} catch (error) {
+			console.error('Error signing in with Google:', error)
+			alert(
+				'Ошибка при авторизации через Google. Проверьте подключение к интернету.'
+			)
+		}
+	}
+
+	const handleFacebookLogin = async (
+		e: React.MouseEvent<HTMLButtonElement>
+	) => {
+		e.preventDefault()
+		const provider = new FacebookAuthProvider()
+		try {
+			const result = await signInWithPopup(getAuth(app), provider)
+			console.log('Successfully signed in with Facebook:', result.user)
+			return navigation('/')
+		} catch (error) {
+			console.error('Error signing in with Facebook:', error)
+			alert(
+				'Ошибка при авторизации через Facebook. Проверьте подключение к интернету.'
+			)
+		}
+	}
+
 	return (
 		<div className='login-container'>
 			<form className='registration-form'>
@@ -71,13 +110,13 @@ export const Login = () => {
 				</p>
 
 				<div className='social-login'>
-					<button className='google'>
+					<button className='google' onClick={handleGoogleLogin}>
 						<img src='./img/Google.png' alt='#' /> Войти через Google
 					</button>
 					<button className='vk'>
 						<img src='./img/VK(1).png' alt='#' /> Войти через VK
 					</button>
-					<button className='facebook'>
+					<button className='facebook' onClick={handleFacebookLogin}>
 						<img src='./img/Facebook.png' alt='#' /> Войти через Facebook
 					</button>
 				</div>

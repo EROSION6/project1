@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export const Tariffs = () => {
 	return (
 		<section id='tariffs' className='main-payment'>
@@ -34,9 +36,11 @@ export const Tariffs = () => {
 									$0
 								</p>
 							</div>
-							<button className='main-payment-block_payment-button'>
-								<p className='button_text'>Оставить заявку</p>
-							</button>
+							<Link to='/dashboard/' style={{ textDecoration: 'none' }}>
+								<button className='main-payment-block_payment-button'>
+									<p className='button_text'>Оставить заявку</p>
+								</button>
+							</Link>
 						</div>
 					</div>
 
@@ -96,9 +100,11 @@ export const Tariffs = () => {
 									$299<span>/год</span>
 								</p>
 							</div>
-							<button className='main-payment-block_payment-button second_button_text'>
-								<p className='button_text'>Оставить заявку</p>
-							</button>
+							<Link to='/dashboard/' style={{ textDecoration: 'none' }}>
+								<button className='main-payment-block_payment-button second_button_text'>
+									<p className='button_text'>Оставить заявку</p>
+								</button>
+							</Link>
 						</div>
 					</div>
 
@@ -157,9 +163,11 @@ export const Tariffs = () => {
 									$999<span>/год</span>
 								</p>
 							</div>
-							<button className='main-payment-block_payment-button'>
-								<p className='button_text'>Оставить заявку</p>
-							</button>
+							<Link to='/dashboard/' style={{ textDecoration: 'none' }}>
+								<button className='main-payment-block_payment-button'>
+									<p className='button_text'>Оставить заявку</p>
+								</button>
+							</Link>
 						</div>
 					</div>
 					<div className='main-payment-content-advantages'>

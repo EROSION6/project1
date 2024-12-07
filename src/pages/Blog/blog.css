@@ -1,0 +1,21 @@
+.blog {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.blog-content {
+	width: 1440px;
+	margin-top: 43px;
+}
+
+.blog-content > h2 {
+	color: white;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-transform: uppercase;
+	padding: 0 20px;
+}

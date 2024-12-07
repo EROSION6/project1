@@ -1,0 +1,200 @@
+.admin-section {
+	width: 76%;
+	display: flex;
+	padding: 20px;
+	flex-direction: column;
+}
+
+.admin-section-header {
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+
+.admin-section-header h1 {
+	color: white;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.create-folder-modal_title,
+.create-transcribe-file_title {
+	color: rgb(27, 26, 29);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.create-folder-modal_form {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-top: 16px;
+}
+
+.create-folder-modal_form input {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+
+	border-radius: 6px;
+	background: rgba(147, 142, 155, 0.2);
+	border: none;
+}
+.create-folder-modal_form input:focus {
+	outline: none;
+}
+
+.admin-section-header-report,
+.btn-modal {
+	border-radius: 100px;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	border: none;
+	color: white;
+	padding: 16px 32px;
+
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+
+.create-transcribe-file_forms {
+	display: flex;
+	gap: 16px;
+	flex-direction: column;
+}
+
+.create-transcribe-file_forms span {
+	color: rgb(27, 26, 29);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.create-transcribe-file_choose {
+	border: 1px solid rgb(237, 235, 243);
+	border-radius: 100px;
+
+	backdrop-filter: blur(30px);
+	background: rgb(248, 247, 252);
+
+	color: rgb(27, 26, 29);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+
+.create-transcribe-file_options {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.create-transcribe-file_options select {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: left;
+
+	border-radius: 6px;
+	background: rgba(147, 142, 155, 0.2);
+	border: none;
+	outline: none;
+}
+
+.create-transcribe-file_forms-add {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#loader_transcribe {
+	background-color: transparent;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.spinner {
+	background-color: transparent;
+	animation: spin 1s linear infinite;
+}
+
+#loader_transcribe p {
+	color: rgb(147, 142, 155);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+
+.admin-section-header-btns {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.admin-section-header-burger {
+	display: none;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (max-width: 1024px) {
+	.admin-section {
+		width: 100%;
+	}
+
+	.admin-section-header-burger {
+		display: block;
+		background-color: transparent;
+		border: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.admin-section-header h1 {
+		font-size: 30px;
+	}
+}

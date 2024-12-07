@@ -89,18 +89,6 @@ export const Register = () => {
 				<p className='login-link'>
 					Есть аккаунт? <Link to='/login'>Войти</Link>
 				</p>
-
-				<div className='social-login'>
-					<button className='google'>
-						<img src='./img/Google.png' alt='#' /> Войти через Google
-					</button>
-					<button className='vk'>
-						<img src='./img/VK(1).png' alt='#' /> Войти через VK
-					</button>
-					<button className='facebook'>
-						<img src='./img/Facebook.png' alt='#' /> Войти через Facebook
-					</button>
-				</div>
 			</form>
 		</div>
 	)

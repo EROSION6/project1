@@ -1,0 +1,52 @@
+.calls {
+	width: 76%;
+	display: flex;
+	justify-content: center;
+}
+
+.calls-content {
+	width: 1440px;
+}
+
+.calls-content-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.calls-content-header > h2 {
+	color: white;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0%;
+	text-transform: uppercase;
+}
+
+.calls-content-header > button {
+	border-radius: 100px;
+	backdrop-filter: blur(30px);
+	background: linear-gradient(
+		180deg,
+		rgb(105, 40, 242),
+		rgb(105, 41, 187) 100%
+	);
+	border: none;
+	color: white;
+	padding: 16px 32px;
+
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+
+.calls-content-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(313.67px, 1fr));
+	gap: 8px;
+	margin-top: 20px;
+}
